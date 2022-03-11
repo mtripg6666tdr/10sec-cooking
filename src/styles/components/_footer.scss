@@ -1,0 +1,11 @@
+@use "../definition" as def;
+
+footer {
+  text-align: center;
+  width: 96%;
+  margin: 0px auto;
+  background-color: def.$CONTAINER_BG;
+  border-radius: 1rem 1rem 0rem 0rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}

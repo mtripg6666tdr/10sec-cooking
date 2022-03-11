@@ -1,0 +1,28 @@
+@mixin gradation($unit) {
+  background-image: 
+    linear-gradient(to right, #ff0000, #80ff00),
+    linear-gradient(to right, #80ff00, #00ffff),
+    linear-gradient(to right, #00ffff, #8000ff),
+    linear-gradient(to right, #8000ff, #ff0000)
+  ;
+  background-position: 
+    $unit * 0 top,
+    $unit * 1 top,
+    $unit * 2 top,
+    $unit * 3 top
+  ;
+  background-size: 
+    $unit 100%,
+    $unit 100%,
+    $unit 100%,
+    $unit 100%
+  ;
+  background-repeat: 
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat
+  ;
+}
+
+$CONTAINER_BG: #dbe0e0a0;
